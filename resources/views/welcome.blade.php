@@ -14,6 +14,5 @@
     <body>
         <div id="app">aaaaaaa</div>
         <script src="{{ mix('js/app.js') }}"></script>
-    </body>
 </html>
 
