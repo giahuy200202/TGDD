@@ -131,7 +131,45 @@ const store = createStore({
                         img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/200x200-200x200.png",
                         title: "Hot Sale Rẻ Hơn"
                     }
+                ],
+                listImages:[
+                    {
+                        img1: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/y36-720-220-720x220-6.png",
+                        img2: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/C53-720-220-720x220-7.png"
+                    },
+                    {
+                        img1: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/Redmi12-720-220-720x220-1.png",
+                        img2: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/04/banner/iP-14-720-220-720x220-1.png"
+                    },
+                    {
+                        img1: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/Befit-720-220-720x220-1.png",
+                        img2: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/04/banner/720-220-720x220-83.png"
+                    },
+                    {
+                        img1: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/05/banner/a57-720-220-720x220-7.png",
+                        img2: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/LTMS-720-220-720x220-2.png"
+                    },
+                ],
+                midProducts:[
+                    {
+                        img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/200x200-200x200.png",
+                        title: "Hot Sale Redmi 12"
+                    },
+                    {
+                        img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-xakho-120x120-3.png",
+                        title: "Mua Sớm Rẻ Hơn"
+                    },
+                    {
+                        img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/100x100-100x100-41.png",
+                        title: "Giảm đến 50%++"
+                    },
+                    {
+                        img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/dien-thoai-120x120-7.png",
+                        title: "Điện Thoại Giá Rẻ Quá"
+                    },
+
                 ]
+
             }
 
         };
@@ -151,6 +189,13 @@ const store = createStore({
         listContacts(state) {
             return state.footerContents.listContacts;
         },
+        listImages(state) {
+            return state.bodyContents.listImages;
+        },
+        midProducts(state) {
+            return state.bodyContents.midProducts;
+        },
+
     },
 });
 
