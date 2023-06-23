@@ -12,7 +12,7 @@
         <!-- Styles -->
     </head>
     <body>
-        <div id="app">aaaaaaa</div>
+        <div id="app"></div>
         <script src="{{ mix('js/app.js') }}"></script>
 </html>
 

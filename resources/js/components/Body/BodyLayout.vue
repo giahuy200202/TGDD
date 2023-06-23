@@ -1,14 +1,14 @@
 <template>
     <div class="body-content">
         <div class="header-body-content">
-            <img
-                src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/des-1920x450.jpg"
-            />
+            <a href="https://www.thegioididong.com/dtdd/samsung-galaxy-a24"> <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/des-1920x450.jpg"/></a>
+
             <div class="arrow-container">
                 <div class="slide-container">
                     <div class="img-container" v-for="image in listImages">
-                        <img :src="image.img1" height="181.8" width="605" />
-                        <img :src="image.img2" height="181.8" width="605" />
+                        <a :href="image.img1.a"><img :src="image.img1.name" height="181.8" width="605" /></a>
+                        <a :href="image.img2.a"><img :src="image.img2.name" height="181.8" width="605" /></a>
+
                     </div>
                     <div class="arrow1" @click="onPrevious">
                         <img src="../../../../public/images/arrow-left.svg" width="14.14" height="14.14"/>
@@ -22,18 +22,20 @@
         <div class="content-body-container">
             <div class="category-container">
                 <div class="each-category-container" v-for="midProduct in midProducts">
-                    <div class="category-inside-container">
+                    <a :href="midProduct.a" class="category-inside-container">
                         <img :src="midProduct.img" height="70" width="70" />
                         <div>{{ midProduct.title }}</div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="imgBanner">
-                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/1200x100-1200x100-3.png" height="100" width="1220" />
+                <a href="https://www.thegioididong.com/dtdd/oppo-a98-5g">
+                    <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/1200x100-1200x100-3.png" height="100" width="1220" />
+                </a>
             </div>
             <div class="pro-img-ban">
                 <div class="pro-img-ban-container">
-                    <div class="each-pro-ban" v-for="banProduct in banProducts">
+                    <a class="each-pro-ban" v-for="banProduct in banProducts" :href="banProduct.a">
                         <div class="ban-product-disc">{{ banProduct.disc }}</div>
                         <img :src="banProduct.img" height="206" width="206"/>
                         <img src="../../../../public/images/disc-img.png" class="disc-img"/>
@@ -47,17 +49,17 @@
                             <img v-show="banProduct.rate!=='' && banProduct.numRate!=='' " src="../../../../public/images/star.png" />
                             <div v-show="banProduct.numRate!==''" class="ban-product-num-rate">({{ banProduct.numRate }})</div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="read-more-but">
+                <a class="read-more-but" href="https://www.thegioididong.com/mua-online-gia-re">
                     Xem tất cả
                     <img src="../../../../public/images/arrow-right.svg" width="9.9" height="9.9"/>
-                </div>
+                </a>
             </div>
 
             <div class="after-pro-img-ban">
                 <div class="pro-img-ban-container">
-                    <div class="each-pro-ban" v-for="banProduct in banProducts" >
+                    <div class="each-pro-ban" v-for="banProduct in banProducts" href="banProduct.a">
                         <div class="ban-product-disc">{{ banProduct.disc }}</div>
                         <img :src="banProduct.img" height="206" width="206"/>
                         <img src="../../../../public/images/disc-img.png" class="disc-img"/>
@@ -73,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="read-more-but">
+                <div class="read-more-but" href="https://www.thegioididong.com/loa-ldp">
                     Xem thêm Loa
                     <img src="../../../../public/images/arrow-right.svg" width="9.9" height="9.9"/>
                 </div>
@@ -82,16 +84,18 @@
             <div class="last-category">
                 <p>DANH MỤC NỔI BẬT</p>
                 <div class="category-container" v-for="group in lastCategories">
-                    <div class="each-category" v-for="category in group">
+                    <a class="each-category" v-for="category in group" :href="category.a">
                         <img :src="category.img" height="60" width="60" />
                         <div>{{ category.name }}</div>
-                    </div>
+                    </a>
                 </div>
             </div>
 
             <div class="onl-disc">
                 <p>KHUYẾN MÃI CHỈ CÓ TRÊN ONLINE</p>
-                <img src="//cdn.tgdd.vn/2023/06/banner/1200x150-tgdd-1200x150-1.png" height="150" width="1220"/>
+                <a href="https://www.thegioididong.com/online-only">
+                    <img src="//cdn.tgdd.vn/2023/06/banner/1200x150-tgdd-1200x150-1.png"  height="150" width="1220"/>
+                </a>
             </div>
 
             <div class="search-trend">
@@ -173,6 +177,11 @@ export default {
 </script>
 
 <style>
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .body-content {
     background-color: #f3f3f3;
 }
@@ -296,6 +305,8 @@ export default {
     width: 20.4rem;
     gap: 1.5rem;
     align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
 .body-content

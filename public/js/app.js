@@ -19653,9 +19653,11 @@ var _hoisted_1 = {
 var _hoisted_2 = {
   "class": "header-body-content"
 };
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.thegioididong.com/dtdd/samsung-galaxy-a24"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/des-1920x450.jpg"
-}, null, -1 /* HOISTED */);
+})], -1 /* HOISTED */);
 var _hoisted_4 = {
   "class": "arrow-container"
 };
@@ -19665,205 +19667,221 @@ var _hoisted_5 = {
 var _hoisted_6 = {
   "class": "img-container"
 };
-var _hoisted_7 = ["src"];
+var _hoisted_7 = ["href"];
 var _hoisted_8 = ["src"];
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_9 = ["href"];
+var _hoisted_10 = ["src"];
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: _public_images_arrow_left_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
   width: "14.14",
   height: "14.14"
 }, null, -1 /* HOISTED */);
-var _hoisted_10 = [_hoisted_9];
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_12 = [_hoisted_11];
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: _public_images_arrow_right_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
   width: "14.14",
   height: "14.14"
 }, null, -1 /* HOISTED */);
-var _hoisted_12 = [_hoisted_11];
-var _hoisted_13 = {
+var _hoisted_14 = [_hoisted_13];
+var _hoisted_15 = {
   "class": "content-body-container"
 };
-var _hoisted_14 = {
+var _hoisted_16 = {
   "class": "category-container"
 };
-var _hoisted_15 = {
+var _hoisted_17 = {
   "class": "each-category-container"
 };
-var _hoisted_16 = {
-  "class": "category-inside-container"
-};
-var _hoisted_17 = ["src"];
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_18 = ["href"];
+var _hoisted_19 = ["src"];
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "imgBanner"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.thegioididong.com/dtdd/oppo-a98-5g"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/1200x100-1200x100-3.png",
   height: "100",
   width: "1220"
-})], -1 /* HOISTED */);
-var _hoisted_19 = {
+})])], -1 /* HOISTED */);
+var _hoisted_21 = {
   "class": "pro-img-ban"
 };
-var _hoisted_20 = {
+var _hoisted_22 = {
   "class": "pro-img-ban-container"
 };
-var _hoisted_21 = {
-  "class": "each-pro-ban"
-};
-var _hoisted_22 = {
+var _hoisted_23 = ["href"];
+var _hoisted_24 = {
   "class": "ban-product-disc"
 };
-var _hoisted_23 = ["src"];
-var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_25 = ["src"];
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: _public_images_disc_img_png__WEBPACK_IMPORTED_MODULE_3__["default"],
   "class": "disc-img"
 }, null, -1 /* HOISTED */);
-var _hoisted_25 = {
+var _hoisted_27 = {
   "class": "ban-product-name"
 };
-var _hoisted_26 = {
+var _hoisted_28 = {
   "class": "price-container"
 };
-var _hoisted_27 = {
+var _hoisted_29 = {
   "class": "ban-product-price"
 };
-var _hoisted_28 = {
+var _hoisted_30 = {
   "class": "ban-product-price-disc"
 };
-var _hoisted_29 = {
+var _hoisted_31 = {
   "class": "rate-container"
 };
-var _hoisted_30 = {
+var _hoisted_32 = {
   src: _public_images_star_png__WEBPACK_IMPORTED_MODULE_4__["default"]
 };
-var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "read-more-but"
+var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  "class": "read-more-but",
+  href: "https://www.thegioididong.com/mua-online-gia-re"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Xem tất cả "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: _public_images_arrow_right_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
   width: "9.9",
   height: "9.9"
 })], -1 /* HOISTED */);
-var _hoisted_32 = {
+var _hoisted_34 = {
   "class": "after-pro-img-ban"
 };
-var _hoisted_33 = {
+var _hoisted_35 = {
   "class": "pro-img-ban-container"
 };
-var _hoisted_34 = {
-  "class": "each-pro-ban"
+var _hoisted_36 = {
+  "class": "each-pro-ban",
+  href: "banProduct.a"
 };
-var _hoisted_35 = {
+var _hoisted_37 = {
   "class": "ban-product-disc"
 };
-var _hoisted_36 = ["src"];
-var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_38 = ["src"];
+var _hoisted_39 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: _public_images_disc_img_png__WEBPACK_IMPORTED_MODULE_3__["default"],
   "class": "disc-img"
 }, null, -1 /* HOISTED */);
-var _hoisted_38 = {
+var _hoisted_40 = {
   "class": "ban-product-name"
 };
-var _hoisted_39 = {
+var _hoisted_41 = {
   "class": "price-container"
 };
-var _hoisted_40 = {
+var _hoisted_42 = {
   "class": "ban-product-price"
 };
-var _hoisted_41 = {
+var _hoisted_43 = {
   "class": "ban-product-price-disc"
 };
-var _hoisted_42 = {
+var _hoisted_44 = {
   "class": "rate-container"
 };
-var _hoisted_43 = {
+var _hoisted_45 = {
   src: _public_images_star_png__WEBPACK_IMPORTED_MODULE_4__["default"]
 };
-var _hoisted_44 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "read-more-but"
+var _hoisted_46 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "read-more-but",
+  href: "https://www.thegioididong.com/loa-ldp"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Xem thêm Loa "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: _public_images_arrow_right_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
   width: "9.9",
   height: "9.9"
 })], -1 /* HOISTED */);
-var _hoisted_45 = {
+var _hoisted_47 = {
   "class": "last-category"
 };
-var _hoisted_46 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "DANH MỤC NỔI BẬT", -1 /* HOISTED */);
-var _hoisted_47 = {
+var _hoisted_48 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "DANH MỤC NỔI BẬT", -1 /* HOISTED */);
+var _hoisted_49 = {
   "class": "category-container"
 };
-var _hoisted_48 = {
-  "class": "each-category"
-};
-var _hoisted_49 = ["src"];
-var _hoisted_50 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_50 = ["href"];
+var _hoisted_51 = ["src"];
+var _hoisted_52 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "onl-disc"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "KHUYẾN MÃI CHỈ CÓ TRÊN ONLINE"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "KHUYẾN MÃI CHỈ CÓ TRÊN ONLINE"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.thegioididong.com/online-only"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "//cdn.tgdd.vn/2023/06/banner/1200x150-tgdd-1200x150-1.png",
   height: "150",
   width: "1220"
-})], -1 /* HOISTED */);
-var _hoisted_51 = {
+})])], -1 /* HOISTED */);
+var _hoisted_53 = {
   "class": "search-trend"
 };
-var _hoisted_52 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "TÌM KIẾM NHIỀU", -1 /* HOISTED */);
-var _hoisted_53 = {
+var _hoisted_54 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "TÌM KIẾM NHIỀU", -1 /* HOISTED */);
+var _hoisted_55 = {
   "class": "search-container"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.listImages, function (image) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-      src: image.img1,
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+      href: image.img1.a
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+      src: image.img1.name,
       height: "181.8",
       width: "605"
-    }, null, 8 /* PROPS */, _hoisted_7), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-      src: image.img2,
+    }, null, 8 /* PROPS */, _hoisted_8)], 8 /* PROPS */, _hoisted_7), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+      href: image.img2.a
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+      src: image.img2.name,
       height: "181.8",
       width: "605"
-    }, null, 8 /* PROPS */, _hoisted_8)]);
+    }, null, 8 /* PROPS */, _hoisted_10)], 8 /* PROPS */, _hoisted_9)]);
   }), 256 /* UNKEYED_FRAGMENT */)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "arrow1",
     onClick: _cache[0] || (_cache[0] = function () {
       return $options.onPrevious && $options.onPrevious.apply($options, arguments);
     })
-  }, _hoisted_10), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  }, _hoisted_12), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "arrow2",
     onClick: _cache[1] || (_cache[1] = function () {
       return $options.onForward && $options.onForward.apply($options, arguments);
     })
-  }, _hoisted_12)])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.midProducts, function (midProduct) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  }, _hoisted_14)])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.midProducts, function (midProduct) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+      href: midProduct.a,
+      "class": "category-inside-container"
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
       src: midProduct.img,
       height: "70",
       width: "70"
-    }, null, 8 /* PROPS */, _hoisted_17), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(midProduct.title), 1 /* TEXT */)])]);
-  }), 256 /* UNKEYED_FRAGMENT */))]), _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.banProducts, function (banProduct) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.disc), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    }, null, 8 /* PROPS */, _hoisted_19), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(midProduct.title), 1 /* TEXT */)], 8 /* PROPS */, _hoisted_18)]);
+  }), 256 /* UNKEYED_FRAGMENT */))]), _hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.banProducts, function (banProduct) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("a", {
+      "class": "each-pro-ban",
+      href: banProduct.a
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.disc), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
       src: banProduct.img,
       height: "206",
       width: "206"
-    }, null, 8 /* PROPS */, _hoisted_23), _hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.name), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.price), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.priceDisc), 1 /* TEXT */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    }, null, 8 /* PROPS */, _hoisted_25), _hoisted_26, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.name), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.price), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.priceDisc), 1 /* TEXT */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
       "class": "ban-product-rate"
-    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.rate), 513 /* TEXT, NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.rate !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", _hoisted_30, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.rate !== '' && banProduct.numRate !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.rate), 513 /* TEXT, NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.rate !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", _hoisted_32, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.rate !== '' && banProduct.numRate !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
       "class": "ban-product-num-rate"
-    }, "(" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.numRate) + ")", 513 /* TEXT, NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.numRate !== '']])])]);
-  }), 256 /* UNKEYED_FRAGMENT */))]), _hoisted_31]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.banProducts, function (banProduct) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.disc), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    }, "(" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.numRate) + ")", 513 /* TEXT, NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.numRate !== '']])])], 8 /* PROPS */, _hoisted_23);
+  }), 256 /* UNKEYED_FRAGMENT */))]), _hoisted_33]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.banProducts, function (banProduct) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_36, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_37, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.disc), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
       src: banProduct.img,
       height: "206",
       width: "206"
-    }, null, 8 /* PROPS */, _hoisted_36), _hoisted_37, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_38, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.name), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.price), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.priceDisc), 1 /* TEXT */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    }, null, 8 /* PROPS */, _hoisted_38), _hoisted_39, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.name), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.price), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.priceDisc), 1 /* TEXT */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
       "class": "ban-product-rate"
-    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.rate), 513 /* TEXT, NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.rate !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", _hoisted_43, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.rate !== '' && banProduct.numRate !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.rate), 513 /* TEXT, NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.rate !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", _hoisted_45, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.rate !== '' && banProduct.numRate !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
       "class": "ban-product-num-rate"
     }, "(" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.numRate) + ")", 513 /* TEXT, NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.numRate !== '']])])]);
-  }), 256 /* UNKEYED_FRAGMENT */))]), _hoisted_44]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_45, [_hoisted_46, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.lastCategories, function (group) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_47, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(group, function (category) {
-      return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_48, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  }), 256 /* UNKEYED_FRAGMENT */))]), _hoisted_46]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_47, [_hoisted_48, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.lastCategories, function (group) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_49, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(group, function (category) {
+      return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("a", {
+        "class": "each-category",
+        href: category.a
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
         src: category.img,
         height: "60",
         width: "60"
-      }, null, 8 /* PROPS */, _hoisted_49), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(category.name), 1 /* TEXT */)]);
+      }, null, 8 /* PROPS */, _hoisted_51), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(category.name), 1 /* TEXT */)], 8 /* PROPS */, _hoisted_50);
     }), 256 /* UNKEYED_FRAGMENT */))]);
-  }), 256 /* UNKEYED_FRAGMENT */))]), _hoisted_50, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [_hoisted_52, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_53, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.listSearch, function (search) {
+  }), 256 /* UNKEYED_FRAGMENT */))]), _hoisted_52, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_53, [_hoisted_54, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_55, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.listSearch, function (search) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(search), 1 /* TEXT */);
   }), 256 /* UNKEYED_FRAGMENT */))])])])]);
 }
@@ -19986,26 +20004,28 @@ var _hoisted_1 = {
 var _hoisted_2 = {
   "class": "content-container"
 };
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"content-top\"><img src=\"" + _public_images_tgdd_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\"><div class=\"lbutton\"><div>Xem giá, tồn kho tại: <b>Hồ Chí Minh</b></div><img src=\"" + _public_images_arrow_down_png__WEBPACK_IMPORTED_MODULE_2__["default"] + "\" height=\"8px\" width=\"16px\"></div><div class=\"input-class\"><input placeholder=\"Bạn tìm gì...\"><img src=\"" + _public_images_search_png__WEBPACK_IMPORTED_MODULE_3__["default"] + "\" height=\"20px\" width=\"20px\"></div><div class=\"lbutton lbutton-1\"><div>Tài khoản &amp; Đơn hàng</div></div><div class=\"lbutton lbutton-2\"><img src=\"" + _public_images_cart_png__WEBPACK_IMPORTED_MODULE_4__["default"] + "\" height=\"25px\" width=\"25px\"><div style=\"font-weight:600;\">Giỏ hàng</div></div><div class=\"nbutton\"><div class=\"nbutton-1\">24h <br>Công nghệ</div><div class=\"nbutton-2\">Hỏi Đáp</div><div class=\"nbutton-3\">Game App</div></div></div>", 1);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"content-top\"><a href=\"https://www.thegioididong.com/\"><img src=\"" + _public_images_tgdd_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\"></a><div class=\"lbutton\"><div>Xem giá, tồn kho tại: <b>Hồ Chí Minh</b></div><img src=\"" + _public_images_arrow_down_png__WEBPACK_IMPORTED_MODULE_2__["default"] + "\" height=\"8px\" width=\"16px\"></div><div class=\"input-class\"><input placeholder=\"Bạn tìm gì...\"><img src=\"" + _public_images_search_png__WEBPACK_IMPORTED_MODULE_3__["default"] + "\" height=\"20px\" width=\"20px\"></div><a class=\"lbutton lbutton-1\" href=\"https://www.thegioididong.com/lich-su-mua-hang/dang-nhap\"><div>Tài khoản &amp; Đơn hàng</div></a><a class=\"lbutton lbutton-2\" href=\"https://www.thegioididong.com/cart\"><img src=\"" + _public_images_cart_png__WEBPACK_IMPORTED_MODULE_4__["default"] + "\" height=\"25px\" width=\"25px\"><div style=\"font-weight:600;\">Giỏ hàng</div></a><div class=\"nbutton\"><a class=\"nbutton-1\" href=\"https://www.thegioididong.com/tin-tuc\">24h <br>Công nghệ</a><a class=\"nbutton-2\" href=\"https://www.thegioididong.com/hoi-dap\">Hỏi Đáp</a><a class=\"nbutton-3\" href=\"https://www.thegioididong.com/game-app\">Game App</a></div></div>", 1);
 var _hoisted_4 = {
   "class": "content-bottom"
 };
-var _hoisted_5 = ["src"];
-var _hoisted_6 = {
+var _hoisted_5 = ["href"];
+var _hoisted_6 = ["src"];
+var _hoisted_7 = {
   src: _public_images_arrow_down_png__WEBPACK_IMPORTED_MODULE_2__["default"],
   width: "10",
   height: "10"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.navbarProducts, function (product) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("a", {
       "class": "product-content",
-      key: product.name
+      key: product.name,
+      href: product.a
     }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
       src: product.icon,
       width: "20",
       height: "20"
-    }, null, 8 /* PROPS */, _hoisted_5), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, product.icon !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", _hoisted_6, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, product.arrow]])]);
+    }, null, 8 /* PROPS */, _hoisted_6), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, product.icon !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name) + " ", 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", _hoisted_7, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, product.arrow]])], 8 /* PROPS */, _hoisted_5);
   }), 128 /* KEYED_FRAGMENT */))])])]);
 }
 
@@ -20097,42 +20117,52 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
   state: function state() {
     return {
       navbarProducts: [{
+        a: "https://www.thegioididong.com/dtdd",
         icon: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-phone-96x96-2.png",
         name: "Điện thoại",
         arrow: false
       }, {
+        a: "https://www.thegioididong.com/laptop-ldp",
         icon: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-laptop-96x96-1.png",
         name: "Laptop",
         arrow: false
       }, {
+        a: "https://www.thegioididong.com/may-tinh-bang",
         icon: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-tablet-96x96-1.png",
         name: "Tablet",
         arrow: false
       }, {
+        a: "https://www.thegioididong.com/phu-kien",
         icon: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-phu-kien-96x96-1.png",
         name: "Phụ kiện",
         arrow: true
       }, {
+        a: "https://www.thegioididong.com/dong-ho-thong-minh-ldp",
         icon: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-smartwatch-96x96-1.png",
         name: "Smartwatch",
         arrow: false
       }, {
+        a: "https://www.thegioididong.com/dong-ho",
         icon: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/watch-icon-96x96.png",
         name: "Đồng hồ",
         arrow: false
       }, {
+        a: "https://www.thegioididong.com/may-doi-tra/",
         icon: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-header-may-cu-30x30.png",
         name: "Máy cũ giá rẻ",
         arrow: false
       }, {
+        a: "https://www.thegioididong.com/pc-may-in",
         icon: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-pc-96x96.png",
         name: "PC, Máy in",
         arrow: true
       }, {
+        a: "https://www.thegioididong.com/sim-so-dep",
         icon: "",
         name: "Sim, Thẻ cào",
         arrow: false
       }, {
+        a: "https://www.thegioididong.com/tien-ich/thanh-toan-tra-gop",
         icon: "",
         name: "Dịch vụ tiện ích",
         arrow: true
@@ -20189,32 +20219,61 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
           title: "Hot Sale Rẻ Hơn"
         }],
         listImages: [{
-          img1: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/y36-720-220-720x220-6.png",
-          img2: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/C53-720-220-720x220-7.png"
+          img1: {
+            a: "https://www.thegioididong.com/dtdd/vivo-y36",
+            name: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/y36-720-220-720x220-6.png"
+          },
+          img2: {
+            a: "https://www.thegioididong.com/dtdd/realme-c53",
+            name: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/C53-720-220-720x220-7.png"
+          }
         }, {
-          img1: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/Redmi12-720-220-720x220-1.png",
-          img2: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/04/banner/iP-14-720-220-720x220-1.png"
+          img1: {
+            a: "https://www.thegioididong.com/dtdd/xiaomi-redmi-12",
+            name: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/Redmi12-720-220-720x220-1.png"
+          },
+          img2: {
+            a: "https://www.thegioididong.com/uu-dai-soc",
+            name: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/04/banner/iP-14-720-220-720x220-1.png"
+          }
         }, {
-          img1: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/Befit-720-220-720x220-1.png",
-          img2: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/04/banner/720-220-720x220-83.png"
+          img1: {
+            a: "https://www.thegioididong.com/dong-ho-thong-minh/befit-watch-fit",
+            name: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/Befit-720-220-720x220-1.png"
+          },
+          img2: {
+            a: "https://www.thegioididong.com/phu-kien-online-gia-soc",
+            name: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/04/banner/720-220-720x220-83.png"
+          }
         }, {
-          img1: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/05/banner/a57-720-220-720x220-7.png",
-          img2: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/LTMS-720-220-720x220-2.png"
+          img1: {
+            a: "https://www.thegioididong.com/dtdd/oppo-a57-128gb",
+            name: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/05/banner/a57-720-220-720x220-7.png"
+          },
+          img2: {
+            a: "https://www.thegioididong.com/laptop-tuu-truong",
+            name: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/LTMS-720-220-720x220-2.png"
+          }
         }],
         midProducts: [{
+          a: "https://www.thegioididong.com/dtdd/xiaomi-redmi-12",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/200x200-200x200.png",
           title: "Hot Sale Redmi 12"
         }, {
+          a: "https://www.thegioididong.com/laptop-tuu-truong",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-xakho-120x120-3.png",
           title: "Mua Sớm Rẻ Hơn"
         }, {
+          a: "https://www.thegioididong.com/mua-online-gia-re",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/100x100-100x100-41.png",
           title: "Giảm đến 50%++"
         }, {
+          a: "https://www.thegioididong.com/uu-dai-soc",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/dien-thoai-120x120-7.png",
           title: "Điện Thoại Giá Rẻ Quá"
         }],
         banProducts: [{
+          a: "https://www.thegioididong.com/dtdd/xiaomi-redmi-12-4gb",
           disc: "Trả góp 0%",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/307556/xiaomi-redmi-12-bac-thumb-600x600.jpg",
           name: "Xiaomi Redmi 12 4GB",
@@ -20223,6 +20282,7 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
           rate: "",
           numRate: ""
         }, {
+          a: "https://www.thegioididong.com/dtdd/realme-c53",
           disc: "Trả góp 0%",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/306785/realme-c53-gold-thumb-1-600x600.jpg",
           name: "realme C53",
@@ -20231,6 +20291,7 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
           rate: "4.5",
           numRate: "305"
         }, {
+          a: "https://www.thegioididong.com/dtdd/samsung-galaxy-s22-ultra",
           disc: "Trả góp 0%",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/274018/samsung-galaxy-a24-black-thumb-600x600.jpg",
           name: "Samsung Galaxy A24 6GB",
@@ -20239,6 +20300,7 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
           rate: "4.4",
           numRate: "17"
         }, {
+          a: "https://www.thegioididong.com/dtdd/iphone-14-pro-max",
           disc: "Trả góp 0%",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-den-thumb-600x600.jpg",
           name: "iPhone 14 Pro Max 128GB",
@@ -20247,6 +20309,7 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
           rate: "4.6",
           numRate: "311"
         }, {
+          a: "https://www.thegioididong.com/dtdd/vivo-y35-2022",
           disc: "Trả góp 0%",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Burgundy-600x600.jpg",
           name: "Samsung Galaxy S22 Ultra 5G 128GB",
@@ -20256,6 +20319,7 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
           numRate: "136"
         }],
         afterBanProducts: [{
+          a: "https://www.thegioididong.com/loa-laptop/bluetooth-jbl-go-3-xanh-den",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/242826/bluetooth-jbl-go-3-xanh-den-thumb-5-600x600.jpg",
           name: "Loa Bluetooth JBL Go 3",
           sig: "Online giá rẻ quá",
@@ -20264,6 +20328,7 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
           rate: "4.7",
           numRate: "61"
         }, {
+          a: "https://www.thegioididong.com/loa-laptop/loa-vi-tinh-fenda-v320",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/125847/loa-vi-tinh-fenda-v320-thumb-600x600.jpeg",
           name: "Loa vi tính Fenda V320",
           sig: "Online giá rẻ quá",
@@ -20272,6 +20337,7 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
           rate: "4.2",
           numRate: "283"
         }, {
+          a: "https://www.thegioididong.com/loa-laptop/loa-bluetooth-mozard-e7",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/212882/loa-bluetooth-mozard-e7-thumb2-600x600.jpeg",
           name: "Loa Bluetooth Mozard E7",
           sig: "Online giá rẻ quá",
@@ -20280,6 +20346,7 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
           rate: "4.6",
           numRate: "156"
         }, {
+          a: "https://www.thegioididong.com/loa-laptop/loa-bluetooth-jbl-go-essential#2-gia",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/299605/loa-bluetooth-jbl-go-essential-thumb-600x600.jpeg",
           name: "Loa Bluetooth JBL Go Essential",
           sig: "Online giá rẻ quá",
@@ -20288,6 +20355,7 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
           rate: "4.3",
           numRate: "15"
         }, {
+          a: "https://www.thegioididong.com/loa-laptop/vi-tinh-microlab-m108",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/239476/vi-tinh-microlab-m108-thumb-600x600.jpeg",
           name: "Loa vi tính Microlab M108",
           sig: "Online giá rẻ quá",
@@ -20298,63 +20366,83 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
         }],
         listSearch: ["iphone 15", "pin", "bàn phím máy tính", "loa jbl", "laptop hp", "air tag", "tai nghe sony", "lg gram", "đồng hồ lacoste", "laptop đồ họa", "phụ kiện samsung", "đồng hồ quartz", "đồng hồ skagen", "đồng hồ thông minh chống nước", "macbook", "màn hình máy tính", "máy chiếu", "loa sony", "loa kéo", "asus rog", "orient star", "máy in brother", "khoá cửa điện tử", "loa nanomax", "đồng hồ mặt vuông", "màn hình asus", "mac air", "redmi 12", "điện thoại oppo a98"],
         lastCategories: [[{
+          a: "https://www.thegioididong.com/laptop-ldp",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Laptop-129x129.png",
           name: "Laptop"
         }, {
+          a: "https://www.thegioididong.com/may-tinh-bang",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Tablet-128x129.png",
           name: "Tablet"
         }, {
+          a: "https://www.thegioididong.com/dong-ho-thong-minh-ldp",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Donghothongminh-128x129.png",
           name: "Đồng hồ thông minh"
         }, {
+          a: "https://www.thegioididong.com/doc-quyen",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/dien-thoai-doc-quyen-128x128.png",
           name: "Điện thoại độc quyền"
         }, {
+          a: "https://www.thegioididong.com/dong-ho",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Donghothoitrang-128x129.png",
           name: "Đồng hồ thời trang"
         }, {
+          a: "https://www.thegioididong.com/may-doi-tra/",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-may-cu-60x60.png",
           name: "Máy cũ giá rẻ"
         }, {
+          a: "https://www.thegioididong.com/op-lung-flipcover",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Oplung-128x128.png",
           name: "Ốp lưng"
         }, {
+          a: "https://www.thegioididong.com/chuot-may-tinh",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/chuot-128x129.png",
           name: "Chuột máy tính"
         }, {
+          a: "https://www.thegioididong.com/ban-phim",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/ban-phim-128x129.png",
           name: "Bàn phím"
         }, {
+          a: "https://www.thegioididong.com/sim-so-dep",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Simthecao-129x129.png",
           name: "Sim, thẻ cào"
         }], [{
+          a: "https://www.thegioididong.com/loa-laptop",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Loa-128x128.png",
           name: "Loa"
         }, {
+          a: "https://www.thegioididong.com/tai-nghe",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Tainghe-128x129.png",
           name: "Tai nghe"
         }, {
+          a: "https://www.thegioididong.com/sac-dtdd",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Sacduphong-128x129.png",
           name: "Sạc dự phòng"
         }, {
+          a: "https://www.thegioididong.com/cap-dien-thoai",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Capsac-129x129.png",
           name: "Cáp sạc"
         }, {
+          a: "https://www.thegioididong.com/may-tinh-de-ban",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Maytinhbo-128x129.png",
           name: "Máy tính bộ"
         }, {
+          a: "https://www.thegioididong.com/may-in",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Mayin-128x129.png",
           name: "Máy in"
         }, {
+          a: "https://www.thegioididong.com/man-hinh-may-tinh",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Manhinhmaytinh-128x129.png",
           name: "Màn hình máy tính"
         }, {
+          a: "https://www.thegioididong.com/phu-kien-gaming",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Phukiengaming-128x129.png",
           name: "Phụ kiện gaming"
         }, {
+          a: "https://www.thegioididong.com/camera-giam-sat",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-camera-128x129.png",
           name: "Camera, webcam"
         }, {
+          a: "https://www.thegioididong.com/thiet-bi-nha-thong-minh",
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/may-chieu-icon-128x129.png",
           name: "Thiết bị nhà thông minh"
         }]]
@@ -24779,7 +24867,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n* {\n    box-sizing: border-box;\n}\nhtml {\n    font-family: \"Jost\", sans-serif;\n    font-size: 10px;\n}\nbody {\n    margin: 0;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n* {\n    box-sizing: border-box;\n}\nhtml {\n    font-family: \"Jost\", sans-serif;\n    font-size: 10px;\n    text-decoration: none;\n}\nbody {\n    margin: 0;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24803,7 +24891,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.body-content {\n    background-color: #f3f3f3;\n}\n.body-content > .header-body-content {\n    position: relative;\n}\n.body-content > .header-body-content > .arrow-container {\n    width: 122rem;\n    margin: 0 auto;\n    height: 18.18rem;\n    position: absolute;\n    top: 81%;\n    left: 50%;\n    transform: translate(-50%, -3%);\n    border-radius: 1.2rem;\n}\n.body-content > .header-body-content > .arrow-container > .slide-container {\n    width: 122rem;\n    height: 18.18rem;\n    border-radius: 1.2rem;\n    display: flex;\n    overflow: hidden;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow1 {\n    position: absolute;\n    top: 50%;\n    transform: translate(-45%, -50%);\n    left: 0;\n    background-color: rgba(255, 255, 255, 0.7);\n    padding: 1.8rem;\n    border-radius: 50%;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow2 {\n    position: absolute;\n    top: 50%;\n    transform: translate(50%, -50%);\n    right: 0;\n    background-color: rgba(255, 255, 255, 0.7);\n    padding: 1.8rem;\n    border-radius: 50%;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow1:hover{\n        cursor: pointer;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow2:hover{\n        cursor: pointer;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .img-container {\n    display: flex;\n    justify-content: space-between;\n    gap: 1rem;\n    width: 100%;\n    transition: all 1s ease-in-out;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .img-container\n    > img {\n    border-radius: 1.2rem;\n}\n.body-content > .content-body-container {\n    width: 122rem;\n    margin: 13rem auto 0 auto;\n}\n.body-content > .content-body-container > .category-container{\n    display: flex;\n    justify-content: space-between;\n}\n.body-content > .content-body-container > .category-container > .each-category-container {\n    height: 10rem;\n    width: 22%;\n    border-radius: 1.2rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: white;\n}\n.body-content\n    > .content-body-container\n    > .category-container\n    > .each-category-container\n    > .category-inside-container {\n    height: 7rem;\n    display: flex;\n    width: 20.4rem;\n    gap: 1.5rem;\n    align-items: center;\n}\n.body-content\n    > .content-body-container\n    > .category-container\n    > .each-category-container\n    > .category-inside-container\n    > img {\n    height: 7rem;\n    display: flex;\n}\n.body-content\n    > .content-body-container\n    > .category-container\n    > .each-category-container\n    > .category-inside-container\n    > div {\n    font-size: 2.2rem;\n}\n.body-content > .content-body-container > .imgBanner{\n    height: 10rem;\n    margin-top: 3rem;\n}\n.body-content > .content-body-container > .pro-img-ban{\n    height: 51.4rem;\n    margin-top: 1.25rem;\n    background: #FAA118;\n    border-radius: 1.5rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container{\n    height: 43.43rem;\n    width: 96.75%;\n    margin: 0 auto;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban{\n    width: 22.6rem;\n    height: 100%;\n    margin: 0 auto;\n    background: white;\n    padding: 1rem;\n    border-radius: 0.5rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .ban-product-disc{\n    font-size: 1.1rem;\n    background: #f1f1f1;\n    width: 6.4rem;\n    margin-bottom: 1.5rem;\n    padding: 0.3rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .disc-img{\n    margin: 1rem 0 0.5rem 0;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .ban-product-name{\n    font-size: 1.4rem;\n    margin-bottom: 0.8rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container{\n    display: flex;\n    gap: 1.5rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container >.ban-product-price{\n    font-size: 1.8rem;\n    color: #d0021c;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container > .ban-product-price-disc{\n    color: #eb5757;\n    border-radius: 0.4rem;\n    padding: 0.1rem 0.2rem 0.2rem 0.2rem;\n    font-size: 1.4rem;\n    background: #fff0e9;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container{\n    display: flex;\n    gap: 0.1rem;\n    align-items: center;\n    font-size: 1.4rem;\n    margin-top: 0.8rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container > .ban-product-rate{\n    color: #fb6e2e;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container > .ban-product-num-rate{\n    color: #999;\n}\n.body-content > .content-body-container > .pro-img-ban > .read-more-but{\n    background-color: #fff;\n    border-radius: 0.4rem;\n    border: 1px solid #e0e0e0;\n    margin: 1.5rem auto;\n    padding: 1.5rem 2rem;\n    text-align: center;\n    color: #333;\n    display: block;\n    width: 34rem;\n    height: 4.8rem;\n    font-size: 1.4rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban{\n    height: 58rem;\n    margin-top: 3rem;\n    background-color: #920101;\n    border-radius: 1.5rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container{\n    height: 50rem;\n    width: 96.75%;\n    margin: 0 auto;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban{\n    width: 22.6rem;\n    height: 100%;\n    margin: 0 auto;\n    background: white;\n    padding: 1.2rem;\n    border-radius: 0.5rem;\n    background: white url(\"https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/04/campaign/Frame-knockout-desktop-226x500.png\") no-repeat;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .ban-product-disc{\n    font-size: 1.1rem;\n    background: #f1f1f1;\n    width: 6.4rem;\n    margin-bottom: 1.5rem;\n    padding: 0.3rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .disc-img{\n    margin: 1rem 0 0.5rem 0;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .ban-product-name{\n    font-size: 1.4rem;\n    margin-bottom: 0.8rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container{\n    display: flex;\n    gap: 1.5rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container >.ban-product-price{\n    font-size: 1.8rem;\n    color: #d0021c;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container > .ban-product-price-disc{\n    color: #eb5757;\n    border-radius: 0.4rem;\n    padding: 0.1rem 0.2rem 0.2rem 0.2rem;\n    font-size: 1.4rem;\n    background: #fff0e9;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container{\n    display: flex;\n    gap: 0.1rem;\n    align-items: center;\n    font-size: 1.4rem;\n    margin-top: 0.8rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container > .ban-product-rate{\n    color: #fb6e2e;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container > .ban-product-num-rate{\n    color: #999;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .read-more-but{\n    background-color: #fff;\n    border-radius: 0.4rem;\n    border: 1px solid #e0e0e0;\n    margin: 1.5rem auto;\n    padding: 1.5rem 2rem;\n    text-align: center;\n    color: #333;\n    display: block;\n    width: 34rem;\n    height: 4.8rem;\n    font-size: 1.4rem;\n}\n.body-content > .content-body-container > .last-category {\n    height: 34.4em;\n    margin-top: 4rem;\n    background: white;\n    border-radius: 1.5rem;\n    padding: 2rem;\n}\n.body-content > .content-body-container > .last-category > p{\n    color: #333;\n    font-size: 2.2rem;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .last-category > .category-container{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    margin-top: 2rem;\n}\n.body-content > .content-body-container > .last-category > .category-container > .each-category{\n    width: 11.2rem;\n    height: 8.6rem;\n    padding: 1rem 2rem;\n    text-align: center;\n}\n.body-content > .content-body-container > .onl-disc{\n    height: 20.1rem;\n    margin-top: 4rem;\n}\n.body-content > .content-body-container > .onl-disc > img{\n    border-radius: 1.5rem;\n}\n.body-content > .content-body-container > .onl-disc > p {\n    color: #333;\n    font-size: 2.2rem;\n    font-weight: 600;\n    margin-bottom: 1.5rem;\n}\n.body-content > .content-body-container > .search-trend {\n    height: 20rem;\n    margin-top: 4rem;\n}\n.body-content > .content-body-container > .search-trend > p {\n    color: #333;\n    font-size: 2.2rem;\n    font-weight: 600;\n    margin-bottom: 1.5rem;\n}\n.body-content > .content-body-container > .search-trend > .search-container {\n    display: flex;\n    flex-wrap: wrap;\n    font-size: 1.4rem;\n    width: 100%;\n    height: 9.9rem;\n    -moz-column-gap: 3rem;\n         column-gap: 3rem;\n    row-gap: 1.5rem;\n}\n\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\na{\n    text-decoration: none;\n    color: black;\n}\n.body-content {\n    background-color: #f3f3f3;\n}\n.body-content > .header-body-content {\n    position: relative;\n}\n.body-content > .header-body-content > .arrow-container {\n    width: 122rem;\n    margin: 0 auto;\n    height: 18.18rem;\n    position: absolute;\n    top: 81%;\n    left: 50%;\n    transform: translate(-50%, -3%);\n    border-radius: 1.2rem;\n}\n.body-content > .header-body-content > .arrow-container > .slide-container {\n    width: 122rem;\n    height: 18.18rem;\n    border-radius: 1.2rem;\n    display: flex;\n    overflow: hidden;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow1 {\n    position: absolute;\n    top: 50%;\n    transform: translate(-45%, -50%);\n    left: 0;\n    background-color: rgba(255, 255, 255, 0.7);\n    padding: 1.8rem;\n    border-radius: 50%;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow2 {\n    position: absolute;\n    top: 50%;\n    transform: translate(50%, -50%);\n    right: 0;\n    background-color: rgba(255, 255, 255, 0.7);\n    padding: 1.8rem;\n    border-radius: 50%;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow1:hover{\n        cursor: pointer;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow2:hover{\n        cursor: pointer;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .img-container {\n    display: flex;\n    justify-content: space-between;\n    gap: 1rem;\n    width: 100%;\n    transition: all 1s ease-in-out;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .img-container\n    > img {\n    border-radius: 1.2rem;\n}\n.body-content > .content-body-container {\n    width: 122rem;\n    margin: 13rem auto 0 auto;\n}\n.body-content > .content-body-container > .category-container{\n    display: flex;\n    justify-content: space-between;\n}\n.body-content > .content-body-container > .category-container > .each-category-container {\n    height: 10rem;\n    width: 22%;\n    border-radius: 1.2rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: white;\n}\n.body-content\n    > .content-body-container\n    > .category-container\n    > .each-category-container\n    > .category-inside-container {\n    height: 7rem;\n    display: flex;\n    width: 20.4rem;\n    gap: 1.5rem;\n    align-items: center;\n    text-decoration: none;\n    color: black;\n}\n.body-content\n    > .content-body-container\n    > .category-container\n    > .each-category-container\n    > .category-inside-container\n    > img {\n    height: 7rem;\n    display: flex;\n}\n.body-content\n    > .content-body-container\n    > .category-container\n    > .each-category-container\n    > .category-inside-container\n    > div {\n    font-size: 2.2rem;\n}\n.body-content > .content-body-container > .imgBanner{\n    height: 10rem;\n    margin-top: 3rem;\n}\n.body-content > .content-body-container > .pro-img-ban{\n    height: 51.4rem;\n    margin-top: 1.25rem;\n    background: #FAA118;\n    border-radius: 1.5rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container{\n    height: 43.43rem;\n    width: 96.75%;\n    margin: 0 auto;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban{\n    width: 22.6rem;\n    height: 100%;\n    margin: 0 auto;\n    background: white;\n    padding: 1rem;\n    border-radius: 0.5rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .ban-product-disc{\n    font-size: 1.1rem;\n    background: #f1f1f1;\n    width: 6.4rem;\n    margin-bottom: 1.5rem;\n    padding: 0.3rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .disc-img{\n    margin: 1rem 0 0.5rem 0;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .ban-product-name{\n    font-size: 1.4rem;\n    margin-bottom: 0.8rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container{\n    display: flex;\n    gap: 1.5rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container >.ban-product-price{\n    font-size: 1.8rem;\n    color: #d0021c;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container > .ban-product-price-disc{\n    color: #eb5757;\n    border-radius: 0.4rem;\n    padding: 0.1rem 0.2rem 0.2rem 0.2rem;\n    font-size: 1.4rem;\n    background: #fff0e9;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container{\n    display: flex;\n    gap: 0.1rem;\n    align-items: center;\n    font-size: 1.4rem;\n    margin-top: 0.8rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container > .ban-product-rate{\n    color: #fb6e2e;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container > .ban-product-num-rate{\n    color: #999;\n}\n.body-content > .content-body-container > .pro-img-ban > .read-more-but{\n    background-color: #fff;\n    border-radius: 0.4rem;\n    border: 1px solid #e0e0e0;\n    margin: 1.5rem auto;\n    padding: 1.5rem 2rem;\n    text-align: center;\n    color: #333;\n    display: block;\n    width: 34rem;\n    height: 4.8rem;\n    font-size: 1.4rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban{\n    height: 58rem;\n    margin-top: 3rem;\n    background-color: #920101;\n    border-radius: 1.5rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container{\n    height: 50rem;\n    width: 96.75%;\n    margin: 0 auto;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban{\n    width: 22.6rem;\n    height: 100%;\n    margin: 0 auto;\n    background: white;\n    padding: 1.2rem;\n    border-radius: 0.5rem;\n    background: white url(\"https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/04/campaign/Frame-knockout-desktop-226x500.png\") no-repeat;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .ban-product-disc{\n    font-size: 1.1rem;\n    background: #f1f1f1;\n    width: 6.4rem;\n    margin-bottom: 1.5rem;\n    padding: 0.3rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .disc-img{\n    margin: 1rem 0 0.5rem 0;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .ban-product-name{\n    font-size: 1.4rem;\n    margin-bottom: 0.8rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container{\n    display: flex;\n    gap: 1.5rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container >.ban-product-price{\n    font-size: 1.8rem;\n    color: #d0021c;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container > .ban-product-price-disc{\n    color: #eb5757;\n    border-radius: 0.4rem;\n    padding: 0.1rem 0.2rem 0.2rem 0.2rem;\n    font-size: 1.4rem;\n    background: #fff0e9;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container{\n    display: flex;\n    gap: 0.1rem;\n    align-items: center;\n    font-size: 1.4rem;\n    margin-top: 0.8rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container > .ban-product-rate{\n    color: #fb6e2e;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container > .ban-product-num-rate{\n    color: #999;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .read-more-but{\n    background-color: #fff;\n    border-radius: 0.4rem;\n    border: 1px solid #e0e0e0;\n    margin: 1.5rem auto;\n    padding: 1.5rem 2rem;\n    text-align: center;\n    color: #333;\n    display: block;\n    width: 34rem;\n    height: 4.8rem;\n    font-size: 1.4rem;\n}\n.body-content > .content-body-container > .last-category {\n    height: 34.4em;\n    margin-top: 4rem;\n    background: white;\n    border-radius: 1.5rem;\n    padding: 2rem;\n}\n.body-content > .content-body-container > .last-category > p{\n    color: #333;\n    font-size: 2.2rem;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .last-category > .category-container{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    margin-top: 2rem;\n}\n.body-content > .content-body-container > .last-category > .category-container > .each-category{\n    width: 11.2rem;\n    height: 8.6rem;\n    padding: 1rem 2rem;\n    text-align: center;\n}\n.body-content > .content-body-container > .onl-disc{\n    height: 20.1rem;\n    margin-top: 4rem;\n}\n.body-content > .content-body-container > .onl-disc > img{\n    border-radius: 1.5rem;\n}\n.body-content > .content-body-container > .onl-disc > p {\n    color: #333;\n    font-size: 2.2rem;\n    font-weight: 600;\n    margin-bottom: 1.5rem;\n}\n.body-content > .content-body-container > .search-trend {\n    height: 20rem;\n    margin-top: 4rem;\n}\n.body-content > .content-body-container > .search-trend > p {\n    color: #333;\n    font-size: 2.2rem;\n    font-weight: 600;\n    margin-bottom: 1.5rem;\n}\n.body-content > .content-body-container > .search-trend > .search-container {\n    display: flex;\n    flex-wrap: wrap;\n    font-size: 1.4rem;\n    width: 100%;\n    height: 9.9rem;\n    -moz-column-gap: 3rem;\n         column-gap: 3rem;\n    row-gap: 1.5rem;\n}\n\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24851,7 +24939,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.container {\n    background-color: #ffd400;\n    height: 11.4rem;\n    width: 100%;\n}\n.container > .content-container {\n    height: 100%;\n    width: 122rem;\n    margin: 0 auto;\n    padding-top: 1rem 0;\n}\n.container > .content-container > .content-top {\n    height: 5rem;\n    width: 122rem;\n    display: flex;\n    gap: 1rem;\n    align-items: center;\n    justify-content: space-between;\n    padding: 1rem 0 0 0;\n}\n.container > .content-container > .content-top > .lbutton {\n    height: 4rem;\n    width: 13.711rem;\n    background-color: #FFAC0A99;\n    padding: 0.4rem 1rem 0.4rem 1rem;\n    font-size: 1.1rem;\n    box-sizing: border-box;\n    display: flex;\n    align-items: center;\n}\n.container > .content-container > .content-top > .lbutton-1{\n    width: 9.6rem;\n    text-align: center;\n    font-size: 1.2rem;\n}\n.container > .content-container > .content-top > .lbutton-2{\n    height: 4rem;\n    width: 11rem;\n    font-size: 1.2rem;\n    gap: 1rem;\n}\n.container > .content-container > .content-top > .input-class{\n    width: 26.6rem;\n    height: 4rem;\n    padding: 0;\n    border: none;\n    display: flex;\n    align-items: center;\n    background-color: white;\n}\n.container > .content-container > .content-top > .input-class > input{\n    width: 23rem;\n    height: 100%;\n    padding: 0.8rem 0.8rem 0.8rem 1.3rem;\n    border: none;\n}\n.container > .content-container > .content-top > .nbutton {\n    height: 4rem;\n    width: 24.8rem;\n    background-color: #ffd400;\n    font-size: 1.4rem;\n    box-sizing: border-box;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    text-align: center;\n    margin: 0;\n}\n.container > .content-container > .content-top > .nbutton > .nbutton-1 {\n    width: 9.2rem;\n    padding: 0.5rem 0.5rem;\n    height: 4rem;\n    border-right: 1px solid white;\n}\n.container > .content-container > .content-top > .nbutton > .nbutton-2 {\n    width: 7.5rem;\n    padding: 1.15rem 0.3rem;\n    height: 4rem;\n    border-right: 1px solid white;\n}\n.container > .content-container > .content-top > .nbutton > .nbutton-3 {\n    padding: 1.15rem 0;\n    border: none;\n    height: 4rem;\n}\n.container > .content-container > .content-bottom {\n    height: 5.4rem;\n    width: 122rem;\n    display: flex;\n    gap: 1rem;\n    align-items: center;\n    justify-content: space-between;\n    padding: 1rem 0 0 0;\n    margin-top: 0.5rem;\n}\n.container > .content-container > .content-bottom > .product-content {\n    height: 4.4rem;\n    display: flex;\n    gap: 0.7rem;\n    align-items: center;\n    justify-content: space-between;\n    font-size: 1.4rem;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\na{\n    text-decoration: none;\n    color: black;\n}\n.container {\n    background-color: #ffd400;\n    height: 11.4rem;\n    width: 100%;\n}\n.container > .content-container {\n    height: 100%;\n    width: 122rem;\n    margin: 0 auto;\n    padding-top: 1rem 0;\n}\n.container > .content-container > .content-top {\n    height: 5rem;\n    width: 122rem;\n    display: flex;\n    gap: 1rem;\n    align-items: center;\n    justify-content: space-between;\n    padding: 1rem 0 0 0;\n}\n.container > .content-container > .content-top > .lbutton {\n    height: 4rem;\n    width: 13.711rem;\n    background-color: #FFAC0A99;\n    padding: 0.4rem 1rem 0.4rem 1rem;\n    font-size: 1.1rem;\n    box-sizing: border-box;\n    display: flex;\n    align-items: center;\n}\n.container > .content-container > .content-top > .lbutton-1{\n    width: 9.6rem;\n    text-align: center;\n    font-size: 1.2rem;\n}\n.container > .content-container > .content-top > .lbutton-2{\n    height: 4rem;\n    width: 11rem;\n    font-size: 1.2rem;\n    gap: 1rem;\n}\n.container > .content-container > .content-top > .input-class{\n    width: 26.6rem;\n    height: 4rem;\n    padding: 0;\n    border: none;\n    display: flex;\n    align-items: center;\n    background-color: white;\n}\n.container > .content-container > .content-top > .input-class > input{\n    width: 23rem;\n    height: 100%;\n    padding: 0.8rem 0.8rem 0.8rem 1.3rem;\n    border: none;\n}\n.container > .content-container > .content-top > .nbutton {\n    height: 4rem;\n    width: 24.8rem;\n    background-color: #ffd400;\n    font-size: 1.4rem;\n    box-sizing: border-box;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    text-align: center;\n    margin: 0;\n}\n.container > .content-container > .content-top > .nbutton > .nbutton-1 {\n    width: 9.2rem;\n    padding: 0.5rem 0.5rem;\n    height: 4rem;\n    border-right: 1px solid white;\n}\n.container > .content-container > .content-top > .nbutton > .nbutton-2 {\n    width: 7.5rem;\n    padding: 1.15rem 0.3rem;\n    height: 4rem;\n    border-right: 1px solid white;\n}\n.container > .content-container > .content-top > .nbutton > .nbutton-3 {\n    padding: 1.15rem 0;\n    border: none;\n    height: 4rem;\n}\n.container > .content-container > .content-bottom {\n    height: 5.4rem;\n    width: 122rem;\n    display: flex;\n    gap: 1rem;\n    align-items: center;\n    justify-content: space-between;\n    padding: 1rem 0 0 0;\n    margin-top: 0.5rem;\n}\n.container > .content-container > .content-bottom > .product-content {\n    height: 4.4rem;\n    display: flex;\n    gap: 0.7rem;\n    align-items: center;\n    justify-content: space-between;\n    font-size: 1.4rem;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="content-container">
             <div class="content-top">
-                <img src="../../../../public/images/tgdd.png"/>
+                <a href="https://www.thegioididong.com/"><img src="../../../../public/images/tgdd.png" /></a>
                 <div class="lbutton">
                     <div>Xem giá, tồn kho tại: <b>Hồ Chí Minh</b></div>
                     <img src="../../../../public/images/arrow-down.png" height="8px" width="16px"/>
@@ -11,25 +11,25 @@
                     <input placeholder="Bạn tìm gì..."/>
                     <img src="../../../../public/images/search.png" height="20px" width="20px"/>
                 </div>
-                <div class="lbutton lbutton-1">
+                <a class="lbutton lbutton-1" href="https://www.thegioididong.com/lich-su-mua-hang/dang-nhap">
                     <div>Tài khoản & Đơn hàng</div>
-                </div>
-                <div class="lbutton lbutton-2">
+                </a>
+                <a class="lbutton lbutton-2" href="https://www.thegioididong.com/cart">
                     <img src="../../../../public/images/cart.png" height="25px" width="25px"/>
                     <div style="font-weight: 600;">Giỏ hàng</div>
-                </div>
+                </a>
                 <div class="nbutton">
-                    <div class="nbutton-1">24h <br>Công nghệ</div>
-                    <div class="nbutton-2">Hỏi Đáp</div>
-                    <div class="nbutton-3">Game App</div>
+                    <a class="nbutton-1" href="https://www.thegioididong.com/tin-tuc">24h <br>Công nghệ</a>
+                    <a class="nbutton-2" href="https://www.thegioididong.com/hoi-dap">Hỏi Đáp</a>
+                    <a class="nbutton-3" href="https://www.thegioididong.com/game-app">Game App</a>
                 </div>
             </div>
             <div class="content-bottom">
-                <div class="product-content" v-for="product in navbarProducts" :key="product.name">
+                <a class="product-content" v-for="product in navbarProducts" :key="product.name" :href="product.a">
                     <img v-show="product.icon!=='' " :src="product.icon" width="20" height="20"/>
-                    <div>{{ product.name }}</div>
+                    {{ product.name }}
                     <img v-show="product.arrow" src="../../../../public/images/arrow-down.png" width="10" height="10" />
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -46,6 +46,10 @@ export default {
 </script>
 
 <style>
+a{
+    text-decoration: none;
+    color: black;
+}
 .container {
     background-color: #ffd400;
     height: 11.4rem;

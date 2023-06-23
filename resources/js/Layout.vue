@@ -21,6 +21,7 @@ export default {
 html {
     font-family: "Jost", sans-serif;
     font-size: 10px;
+    text-decoration: none;
 }
 body {
     margin: 0;
