@@ -79,8 +79,26 @@
                 </div>
             </div>
 
-            <div class="search-trend">
+            <div class="last-category">
+                <p>DANH MỤC NỔI BẬT</p>
+                <div class="category-container" v-for="group in lastCategories">
+                    <div class="each-category" v-for="category in group">
+                        <img :src="category.img" height="60" width="60" />
+                        <div>{{ category.name }}</div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="onl-disc">
+                <p>KHUYẾN MÃI CHỈ CÓ TRÊN ONLINE</p>
+                <img src="//cdn.tgdd.vn/2023/06/banner/1200x150-tgdd-1200x150-1.png" />
+            </div>
+
+            <div class="search-trend">
+                <p>TÌM KIẾM NHIỀU</p>
+                <div class="search-container">
+                    <div v-for="search in listSearch">{{ search }}</div>
+                </div>
             </div>
 
         </div>
@@ -110,6 +128,12 @@ export default {
         },
         afterBanProducts() {
             return this.$store.getters["afterBanProducts"];
+        },
+        listSearch() {
+            return this.$store.getters["listSearch"];
+        },
+        lastCategories() {
+            return this.$store.getters["lastCategories"];
         },
     },
     methods: {
@@ -151,7 +175,6 @@ export default {
 <style>
 .body-content {
     background-color: #f3f3f3;
-    height: 200rem;
 }
 
 .body-content > .header-body-content {
@@ -244,9 +267,7 @@ export default {
 
 .body-content > .content-body-container {
     width: 122rem;
-    background: plum;
     margin: 13rem auto 0 auto;
-    height: 100rem;
 }
 
 
@@ -488,6 +509,74 @@ export default {
     width: 34rem;
     height: 4.8rem;
     font-size: 1.4rem;
+}
+
+.body-content > .content-body-container > .last-category {
+    height: 34.4em;
+    margin-top: 4rem;
+    background: white;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+
+.body-content > .content-body-container > .last-category > p{
+    color: #333;
+    font-size: 2.2rem;
+    font-weight: 600;
+
+}
+
+.body-content > .content-body-container > .last-category > .category-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.body-content > .content-body-container > .last-category > .category-container > .each-category{
+    width: 11.2rem;
+    height: 8.6rem;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.body-content > .content-body-container > .onl-disc{
+    height: 20.1rem;
+    margin-top: 4rem;
+}
+
+.body-content > .content-body-container > .onl-disc > img{
+    border-radius: 1.5rem;
+
+}
+
+.body-content > .content-body-container > .onl-disc > p {
+    color: #333;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.body-content > .content-body-container > .search-trend {
+    height: 20rem;
+    margin-top: 4rem;
+}
+
+.body-content > .content-body-container > .search-trend > p {
+    color: #333;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.body-content > .content-body-container > .search-trend > .search-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+    width: 100%;
+    height: 9.9rem;
+    column-gap: 3rem;
+    row-gap: 1.5rem;
 }
 
 

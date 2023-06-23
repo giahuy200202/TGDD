@@ -217,7 +217,7 @@ const store = createStore({
                     {
                         img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/242826/bluetooth-jbl-go-3-xanh-den-thumb-5-600x600.jpg",
                         name: "Loa Bluetooth JBL Go 3",
-                        sig:"Online giá rẻ quá",
+                        sig: "Online giá rẻ quá",
                         price: "890.000₫",
                         priceDisc: "-18%",
                         rate: "4.7",
@@ -226,7 +226,7 @@ const store = createStore({
                     {
                         img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/125847/loa-vi-tinh-fenda-v320-thumb-600x600.jpeg",
                         name: "Loa vi tính Fenda V320",
-                        sig:"Online giá rẻ quá",
+                        sig: "Online giá rẻ quá",
                         price: "110.000₫",
                         priceDisc: "-55%",
                         rate: "4.2",
@@ -235,7 +235,7 @@ const store = createStore({
                     {
                         img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/212882/loa-bluetooth-mozard-e7-thumb2-600x600.jpeg",
                         name: "Loa Bluetooth Mozard E7",
-                        sig:"Online giá rẻ quá",
+                        sig: "Online giá rẻ quá",
                         price: "560.000₫",
                         priceDisc: "-20%",
                         rate: "4.6",
@@ -244,7 +244,7 @@ const store = createStore({
                     {
                         img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/299605/loa-bluetooth-jbl-go-essential-thumb-600x600.jpeg",
                         name: "Loa Bluetooth JBL Go Essential",
-                        sig:"Online giá rẻ quá",
+                        sig: "Online giá rẻ quá",
                         price: "690.000₫",
                         priceDisc: "-12%",
                         rate: "4.3",
@@ -253,7 +253,7 @@ const store = createStore({
                     {
                         img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/239476/vi-tinh-microlab-m108-thumb-600x600.jpeg",
                         name: "Loa vi tính Microlab M108",
-                        sig:"Online giá rẻ quá",
+                        sig: "Online giá rẻ quá",
                         price: "620.000₫",
                         priceDisc: "-15%",
                         rate: "4.2",
@@ -261,13 +261,122 @@ const store = createStore({
                     },
                 ],
                 listSearch: [
-                    'iphone 15', 'pin', 'bàn phím máy tính',
-                    'loa jbl', 'laptop hp', 'air tag', 'tai nghe sony', 'lg gram',
-                    'đồng hồ lacoste', 'laptop đồ họa', 'phụ kiện samsung', 'đồng hồ quartz', 'đồng hồ skagen',
-                    'đồng hồ thông minh chống nước', 'macbook', 'màn hình máy tính', 'máy chiếu', 'loa sony', 'loa kéo',
-                    'asus rog', 'orient star', 'máy in brother', 'khoá cửa điện tử',
-                    'loa nanomax', 'đồng hồ mặt vuông', 'màn hình asus', 'mac air', 'redmi 12', 'điện thoại oppo a98'
-                ]
+                    "iphone 15",
+                    "pin",
+                    "bàn phím máy tính",
+                    "loa jbl",
+                    "laptop hp",
+                    "air tag",
+                    "tai nghe sony",
+                    "lg gram",
+                    "đồng hồ lacoste",
+                    "laptop đồ họa",
+                    "phụ kiện samsung",
+                    "đồng hồ quartz",
+                    "đồng hồ skagen",
+                    "đồng hồ thông minh chống nước",
+                    "macbook",
+                    "màn hình máy tính",
+                    "máy chiếu",
+                    "loa sony",
+                    "loa kéo",
+                    "asus rog",
+                    "orient star",
+                    "máy in brother",
+                    "khoá cửa điện tử",
+                    "loa nanomax",
+                    "đồng hồ mặt vuông",
+                    "màn hình asus",
+                    "mac air",
+                    "redmi 12",
+                    "điện thoại oppo a98",
+                ],
+                lastCategories: [
+                    [
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Laptop-129x129.png",
+                            name: "Laptop",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Tablet-128x129.png",
+                            name: "Tablet",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Donghothongminh-128x129.png",
+                            name: "Đồng hồ thông minh",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/dien-thoai-doc-quyen-128x128.png",
+                            name: "Điện thoại độc quyền",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Donghothoitrang-128x129.png",
+                            name: "Đồng hồ thời trang",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-may-cu-60x60.png",
+                            name: "Máy cũ giá rẻ",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Oplung-128x128.png",
+                            name: "Ốp lưng",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/chuot-128x129.png",
+                            name: "Chuột máy tính",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/ban-phim-128x129.png",
+                            name: "Bàn phím",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Simthecao-129x129.png",
+                            name: "Sim, thẻ cào",
+                        },
+                    ],
+                    [
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Loa-128x128.png",
+                            name: "Loa",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Tainghe-128x129.png",
+                            name: "Tai nghe",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Sacduphong-128x129.png",
+                            name: "Sạc dự phòng",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Capsac-129x129.png",
+                            name: "Cáp sạc",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Maytinhbo-128x129.png",
+                            name: "Máy tính bộ",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Mayin-128x129.png",
+                            name: "Máy in",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Manhinhmaytinh-128x129.png",
+                            name: "Màn hình máy tính",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Phukiengaming-128x129.png",
+                            name: "Phụ kiện gaming",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-camera-128x129.png",
+                            name: "Camera, webcam",
+                        },
+                        {
+                            img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/may-chieu-icon-128x129.png",
+                            name: "Thiết bị nhà thông minh",
+                        },
+                    ],
+                ],
             },
         };
     },
@@ -300,6 +409,9 @@ const store = createStore({
         },
         listSearch(state) {
             return state.bodyContents.listSearch;
+        },
+        lastCategories(state) {
+            return state.bodyContents.lastCategories;
         },
     },
 });
