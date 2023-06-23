@@ -19512,6 +19512,12 @@ __webpack_require__.r(__webpack_exports__);
     },
     midProducts: function midProducts() {
       return this.$store.getters["midProducts"];
+    },
+    banProducts: function banProducts() {
+      return this.$store.getters["banProducts"];
+    },
+    afterBanProducts: function afterBanProducts() {
+      return this.$store.getters["afterBanProducts"];
     }
   },
   methods: {
@@ -19628,6 +19634,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 /* harmony import */ var _public_images_arrow_left_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../public/images/arrow-left.svg */ "./public/images/arrow-left.svg");
 /* harmony import */ var _public_images_arrow_right_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../public/images/arrow-right.svg */ "./public/images/arrow-right.svg");
+/* harmony import */ var _public_images_disc_img_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../public/images/disc-img.png */ "./public/images/disc-img.png");
+/* harmony import */ var _public_images_star_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../public/images/star.png */ "./public/images/star.png");
+
+
 
 
 
@@ -19670,9 +19680,107 @@ var _hoisted_14 = {
   "class": "category-container"
 };
 var _hoisted_15 = {
+  "class": "each-category-container"
+};
+var _hoisted_16 = {
   "class": "category-inside-container"
 };
-var _hoisted_16 = ["src"];
+var _hoisted_17 = ["src"];
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "imgBanner"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/06/banner/1200x100-1200x100-3.png",
+  height: "100",
+  width: "1220"
+})], -1 /* HOISTED */);
+var _hoisted_19 = {
+  "class": "pro-img-ban"
+};
+var _hoisted_20 = {
+  "class": "pro-img-ban-container"
+};
+var _hoisted_21 = {
+  "class": "each-pro-ban"
+};
+var _hoisted_22 = {
+  "class": "ban-product-disc"
+};
+var _hoisted_23 = ["src"];
+var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: _public_images_disc_img_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+  "class": "disc-img"
+}, null, -1 /* HOISTED */);
+var _hoisted_25 = {
+  "class": "ban-product-name"
+};
+var _hoisted_26 = {
+  "class": "price-container"
+};
+var _hoisted_27 = {
+  "class": "ban-product-price"
+};
+var _hoisted_28 = {
+  "class": "ban-product-price-disc"
+};
+var _hoisted_29 = {
+  "class": "rate-container"
+};
+var _hoisted_30 = {
+  src: _public_images_star_png__WEBPACK_IMPORTED_MODULE_4__["default"]
+};
+var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "read-more-but"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Xem tất cả "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: _public_images_arrow_right_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
+  width: "9.9",
+  height: "9.9"
+})], -1 /* HOISTED */);
+var _hoisted_32 = {
+  "class": "after-pro-img-ban"
+};
+var _hoisted_33 = {
+  "class": "pro-img-ban-container"
+};
+var _hoisted_34 = {
+  "class": "each-pro-ban"
+};
+var _hoisted_35 = {
+  "class": "ban-product-disc"
+};
+var _hoisted_36 = ["src"];
+var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: _public_images_disc_img_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+  "class": "disc-img"
+}, null, -1 /* HOISTED */);
+var _hoisted_38 = {
+  "class": "ban-product-name"
+};
+var _hoisted_39 = {
+  "class": "price-container"
+};
+var _hoisted_40 = {
+  "class": "ban-product-price"
+};
+var _hoisted_41 = {
+  "class": "ban-product-price-disc"
+};
+var _hoisted_42 = {
+  "class": "rate-container"
+};
+var _hoisted_43 = {
+  src: _public_images_star_png__WEBPACK_IMPORTED_MODULE_4__["default"]
+};
+var _hoisted_44 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "read-more-but"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Xem thêm Loa "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: _public_images_arrow_right_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
+  width: "9.9",
+  height: "9.9"
+})], -1 /* HOISTED */);
+var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "search-trend"
+}, null, -1 /* HOISTED */);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.listImages, function (image) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -19694,13 +19802,33 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[1] || (_cache[1] = function () {
       return $options.onForward && $options.onForward.apply($options, arguments);
     })
-  }, _hoisted_12)])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.midProducts, function (midProduct) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  }, _hoisted_12)])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.midProducts, function (midProduct) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
       src: midProduct.img,
       height: "70",
       width: "70"
-    }, null, 8 /* PROPS */, _hoisted_16), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(midProduct.title), 1 /* TEXT */)])]);
-  }), 256 /* UNKEYED_FRAGMENT */))])]);
+    }, null, 8 /* PROPS */, _hoisted_17), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(midProduct.title), 1 /* TEXT */)])]);
+  }), 256 /* UNKEYED_FRAGMENT */))]), _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.banProducts, function (banProduct) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.disc), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+      src: banProduct.img,
+      height: "206",
+      width: "206"
+    }, null, 8 /* PROPS */, _hoisted_23), _hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.name), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.price), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.priceDisc), 1 /* TEXT */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+      "class": "ban-product-rate"
+    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.rate), 513 /* TEXT, NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.rate !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", _hoisted_30, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.rate !== '' && banProduct.numRate !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+      "class": "ban-product-num-rate"
+    }, "(" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.numRate) + ")", 513 /* TEXT, NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.numRate !== '']])])]);
+  }), 256 /* UNKEYED_FRAGMENT */))]), _hoisted_31]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($options.banProducts, function (banProduct) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.disc), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+      src: banProduct.img,
+      height: "206",
+      width: "206"
+    }, null, 8 /* PROPS */, _hoisted_36), _hoisted_37, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_38, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.name), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.price), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.priceDisc), 1 /* TEXT */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+      "class": "ban-product-rate"
+    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.rate), 513 /* TEXT, NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.rate !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", _hoisted_43, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.rate !== '' && banProduct.numRate !== '']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+      "class": "ban-product-num-rate"
+    }, "(" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(banProduct.numRate) + ")", 513 /* TEXT, NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, banProduct.numRate !== '']])])]);
+  }), 256 /* UNKEYED_FRAGMENT */))]), _hoisted_44]), _hoisted_45])]);
 }
 
 /***/ }),
@@ -20048,7 +20176,90 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
         }, {
           img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/dien-thoai-120x120-7.png",
           title: "Điện Thoại Giá Rẻ Quá"
-        }]
+        }],
+        banProducts: [{
+          disc: "Trả góp 0%",
+          img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/307556/xiaomi-redmi-12-bac-thumb-600x600.jpg",
+          name: "Xiaomi Redmi 12 4GB",
+          price: " 3.990.000₫",
+          priceDisc: "-6%",
+          rate: "",
+          numRate: ""
+        }, {
+          disc: "Trả góp 0%",
+          img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/306785/realme-c53-gold-thumb-1-600x600.jpg",
+          name: "realme C53",
+          price: "3.990.000₫",
+          priceDisc: "-6%",
+          rate: "4.5",
+          numRate: "305"
+        }, {
+          disc: "Trả góp 0%",
+          img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/274018/samsung-galaxy-a24-black-thumb-600x600.jpg",
+          name: "Samsung Galaxy A24 6GB",
+          price: " 5.890.000₫",
+          priceDisc: "-9%",
+          rate: "4.4",
+          numRate: "17"
+        }, {
+          disc: "Trả góp 0%",
+          img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-den-thumb-600x600.jpg",
+          name: "iPhone 14 Pro Max 128GB",
+          price: "27.290.000₫",
+          priceDisc: "-9%",
+          rate: "4.6",
+          numRate: "311"
+        }, {
+          disc: "Trả góp 0%",
+          img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Burgundy-600x600.jpg",
+          name: "Samsung Galaxy S22 Ultra 5G 128GB",
+          price: "17.990.000₫",
+          priceDisc: "-41%",
+          rate: "4.2",
+          numRate: "136"
+        }],
+        afterBanProducts: [{
+          img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/242826/bluetooth-jbl-go-3-xanh-den-thumb-5-600x600.jpg",
+          name: "Loa Bluetooth JBL Go 3",
+          sig: "Online giá rẻ quá",
+          price: "890.000₫",
+          priceDisc: "-18%",
+          rate: "4.7",
+          numRate: "61"
+        }, {
+          img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/125847/loa-vi-tinh-fenda-v320-thumb-600x600.jpeg",
+          name: "Loa vi tính Fenda V320",
+          sig: "Online giá rẻ quá",
+          price: "110.000₫",
+          priceDisc: "-55%",
+          rate: "4.2",
+          numRate: "283"
+        }, {
+          img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/212882/loa-bluetooth-mozard-e7-thumb2-600x600.jpeg",
+          name: "Loa Bluetooth Mozard E7",
+          sig: "Online giá rẻ quá",
+          price: "560.000₫",
+          priceDisc: "-20%",
+          rate: "4.6",
+          numRate: "156"
+        }, {
+          img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/299605/loa-bluetooth-jbl-go-essential-thumb-600x600.jpeg",
+          name: "Loa Bluetooth JBL Go Essential",
+          sig: "Online giá rẻ quá",
+          price: "690.000₫",
+          priceDisc: "-12%",
+          rate: "4.3",
+          numRate: "15"
+        }, {
+          img: "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/239476/vi-tinh-microlab-m108-thumb-600x600.jpeg",
+          name: "Loa vi tính Microlab M108",
+          sig: "Online giá rẻ quá",
+          price: "620.000₫",
+          priceDisc: "-15%",
+          rate: "4.2",
+          numRate: "52"
+        }],
+        listSearch: ['iphone 15', 'pin', 'bàn phím máy tính', 'loa jbl', 'laptop hp', 'air tag', 'tai nghe sony', 'lg gram', 'đồng hồ lacoste', 'laptop đồ họa', 'phụ kiện samsung', 'đồng hồ quartz', 'đồng hồ skagen', 'đồng hồ thông minh chống nước', 'macbook', 'màn hình máy tính', 'máy chiếu', 'loa sony', 'loa kéo', 'asus rog', 'orient star', 'máy in brother', 'khoá cửa điện tử', 'loa nanomax', 'đồng hồ mặt vuông', 'màn hình asus', 'mac air', 'redmi 12', 'điện thoại oppo a98']
       }
     };
   },
@@ -20069,6 +20280,15 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_0__.createStore)({
     },
     midProducts: function midProducts(state) {
       return state.bodyContents.midProducts;
+    },
+    banProducts: function banProducts(state) {
+      return state.bodyContents.banProducts;
+    },
+    afterBanProducts: function afterBanProducts(state) {
+      return state.bodyContents.afterBanProducts;
+    },
+    listSearch: function listSearch(state) {
+      return state.bodyContents.listSearch;
     }
   }
 });
@@ -24482,7 +24702,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.body-content {\n    background-color: #f3f3f3;\n}\n.body-content > .header-body-content {\n    position: relative;\n}\n.body-content > .header-body-content > .arrow-container {\n    width: 122rem;\n    margin: 0 auto;\n    height: 18.18rem;\n    position: absolute;\n    top: 81%;\n    left: 50%;\n    transform: translate(-50%, -3%);\n    border-radius: 1.2rem;\n}\n.body-content > .header-body-content > .arrow-container > .slide-container {\n    width: 122rem;\n    height: 18.18rem;\n    border-radius: 1.2rem;\n    display: flex;\n    overflow: hidden;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow1 {\n    position: absolute;\n    top: 50%;\n    transform: translate(-45%, -50%);\n    left: 0;\n    background-color: rgba(255, 255, 255, 0.7);\n    padding: 1.8rem;\n    border-radius: 50%;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow2 {\n    position: absolute;\n    top: 50%;\n    transform: translate(50%, -50%);\n    right: 0;\n    background-color: rgba(255, 255, 255, 0.7);\n    padding: 1.8rem;\n    border-radius: 50%;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .img-container {\n    display: flex;\n    justify-content: space-between;\n    gap: 1rem;\n    width: 100%;\n    transition: all 1s ease-in-out;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .img-container\n    > img {\n    border-radius: 1.2rem;\n}\n.body-content > .content-body-container {\n    width: 122rem;\n    background: plum;\n    margin: 13rem auto 0 auto;\n    height: 100rem;\n    display: flex;\n    justify-content: space-between;\n}\n.body-content > .content-body-container > .category-container {\n    height: 10rem;\n    width: 22%;\n    border-radius: 1.2rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: white;\n}\n.body-content\n    > .content-body-container\n    > .category-container\n    > .category-inside-container {\n    height: 7rem;\n    display: flex;\n    width: 20.4rem;\n    gap: 1.5rem;\n    align-items: center;\n}\n.body-content\n    > .content-body-container\n    > .category-container\n    > .category-inside-container\n    > img {\n    height: 7rem;\n    display: flex;\n}\n.body-content\n    > .content-body-container\n    > .category-container\n    > .category-inside-container\n    > div {\n    font-size: 2.2rem;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.body-content {\n    background-color: #f3f3f3;\n    height: 200rem;\n}\n.body-content > .header-body-content {\n    position: relative;\n}\n.body-content > .header-body-content > .arrow-container {\n    width: 122rem;\n    margin: 0 auto;\n    height: 18.18rem;\n    position: absolute;\n    top: 81%;\n    left: 50%;\n    transform: translate(-50%, -3%);\n    border-radius: 1.2rem;\n}\n.body-content > .header-body-content > .arrow-container > .slide-container {\n    width: 122rem;\n    height: 18.18rem;\n    border-radius: 1.2rem;\n    display: flex;\n    overflow: hidden;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow1 {\n    position: absolute;\n    top: 50%;\n    transform: translate(-45%, -50%);\n    left: 0;\n    background-color: rgba(255, 255, 255, 0.7);\n    padding: 1.8rem;\n    border-radius: 50%;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow2 {\n    position: absolute;\n    top: 50%;\n    transform: translate(50%, -50%);\n    right: 0;\n    background-color: rgba(255, 255, 255, 0.7);\n    padding: 1.8rem;\n    border-radius: 50%;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow1:hover{\n        cursor: pointer;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .arrow2:hover{\n        cursor: pointer;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .img-container {\n    display: flex;\n    justify-content: space-between;\n    gap: 1rem;\n    width: 100%;\n    transition: all 1s ease-in-out;\n}\n.body-content\n    > .header-body-content\n    > .arrow-container\n    > .slide-container\n    > .img-container\n    > img {\n    border-radius: 1.2rem;\n}\n.body-content > .content-body-container {\n    width: 122rem;\n    background: plum;\n    margin: 13rem auto 0 auto;\n    height: 100rem;\n}\n.body-content > .content-body-container > .category-container{\n    display: flex;\n    justify-content: space-between;\n}\n.body-content > .content-body-container > .category-container > .each-category-container {\n    height: 10rem;\n    width: 22%;\n    border-radius: 1.2rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: white;\n}\n.body-content\n    > .content-body-container\n    > .category-container\n    > .each-category-container\n    > .category-inside-container {\n    height: 7rem;\n    display: flex;\n    width: 20.4rem;\n    gap: 1.5rem;\n    align-items: center;\n}\n.body-content\n    > .content-body-container\n    > .category-container\n    > .each-category-container\n    > .category-inside-container\n    > img {\n    height: 7rem;\n    display: flex;\n}\n.body-content\n    > .content-body-container\n    > .category-container\n    > .each-category-container\n    > .category-inside-container\n    > div {\n    font-size: 2.2rem;\n}\n.body-content > .content-body-container > .imgBanner{\n    height: 10rem;\n    margin-top: 3rem;\n}\n.body-content > .content-body-container > .pro-img-ban{\n    height: 51.4rem;\n    margin-top: 1.25rem;\n    background: #FAA118;\n    border-radius: 1.5rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container{\n    height: 43.43rem;\n    width: 96.75%;\n    margin: 0 auto;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban{\n    width: 22.6rem;\n    height: 100%;\n    margin: 0 auto;\n    background: white;\n    padding: 1rem;\n    border-radius: 0.5rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .ban-product-disc{\n    font-size: 1.1rem;\n    background: #f1f1f1;\n    width: 6.4rem;\n    margin-bottom: 1.5rem;\n    padding: 0.3rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .disc-img{\n    margin: 1rem 0 0.5rem 0;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .ban-product-name{\n    font-size: 1.4rem;\n    margin-bottom: 0.8rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container{\n    display: flex;\n    gap: 1.5rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container >.ban-product-price{\n    font-size: 1.8rem;\n    color: #d0021c;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container > .ban-product-price-disc{\n    color: #eb5757;\n    border-radius: 0.4rem;\n    padding: 0.1rem 0.2rem 0.2rem 0.2rem;\n    font-size: 1.4rem;\n    background: #fff0e9;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container{\n    display: flex;\n    gap: 0.1rem;\n    align-items: center;\n    font-size: 1.4rem;\n    margin-top: 0.8rem;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container > .ban-product-rate{\n    color: #fb6e2e;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container > .ban-product-num-rate{\n    color: #999;\n}\n.body-content > .content-body-container > .pro-img-ban > .read-more-but{\n    background-color: #fff;\n    border-radius: 0.4rem;\n    border: 1px solid #e0e0e0;\n    margin: 1.5rem auto;\n    padding: 1.5rem 2rem;\n    text-align: center;\n    color: #333;\n    display: block;\n    width: 34rem;\n    height: 4.8rem;\n    font-size: 1.4rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban{\n    height: 58rem;\n    margin-top: 3rem;\n    background-color: #920101;\n    border-radius: 1.5rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container{\n    height: 50rem;\n    width: 96.75%;\n    margin: 0 auto;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban{\n    width: 22.6rem;\n    height: 100%;\n    margin: 0 auto;\n    background: white;\n    padding: 1.2rem;\n    border-radius: 0.5rem;\n    background: white url(\"https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/04/campaign/Frame-knockout-desktop-226x500.png\") no-repeat;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .ban-product-disc{\n    font-size: 1.1rem;\n    background: #f1f1f1;\n    width: 6.4rem;\n    margin-bottom: 1.5rem;\n    padding: 0.3rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .disc-img{\n    margin: 1rem 0 0.5rem 0;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .ban-product-name{\n    font-size: 1.4rem;\n    margin-bottom: 0.8rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container{\n    display: flex;\n    gap: 1.5rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container >.ban-product-price{\n    font-size: 1.8rem;\n    color: #d0021c;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .price-container > .ban-product-price-disc{\n    color: #eb5757;\n    border-radius: 0.4rem;\n    padding: 0.1rem 0.2rem 0.2rem 0.2rem;\n    font-size: 1.4rem;\n    background: #fff0e9;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container{\n    display: flex;\n    gap: 0.1rem;\n    align-items: center;\n    font-size: 1.4rem;\n    margin-top: 0.8rem;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container > .ban-product-rate{\n    color: #fb6e2e;\n    font-weight: 600;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .pro-img-ban-container > .each-pro-ban > .rate-container > .ban-product-num-rate{\n    color: #999;\n}\n.body-content > .content-body-container > .after-pro-img-ban > .read-more-but{\n    background-color: #fff;\n    border-radius: 0.4rem;\n    border: 1px solid #e0e0e0;\n    margin: 1.5rem auto;\n    padding: 1.5rem 2rem;\n    text-align: center;\n    color: #333;\n    display: block;\n    width: 34rem;\n    height: 4.8rem;\n    font-size: 1.4rem;\n}\n\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24673,6 +24893,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./public/images/disc-img.png":
+/*!************************************!*\
+  !*** ./public/images/disc-img.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/disc-img.png?dfb0ac85820394d4c81efcbd12bc61e7");
+
+/***/ }),
+
 /***/ "./public/images/footer-img.png":
 /*!**************************************!*\
   !*** ./public/images/footer-img.png ***!
@@ -24700,6 +24935,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/search.png?ed97a9c568ae77c909b40552bf5b5181");
+
+/***/ }),
+
+/***/ "./public/images/star.png":
+/*!********************************!*\
+  !*** ./public/images/star.png ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/star.png?3377fea947dbe7c36ac75c51802efde0");
 
 /***/ }),
 
