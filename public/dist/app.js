@@ -19797,7 +19797,9 @@ var _hoisted_49 = ["src"];
 var _hoisted_50 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "onl-disc"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "KHUYẾN MÃI CHỈ CÓ TRÊN ONLINE"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "//cdn.tgdd.vn/2023/06/banner/1200x150-tgdd-1200x150-1.png"
+  src: "//cdn.tgdd.vn/2023/06/banner/1200x150-tgdd-1200x150-1.png",
+  height: "150",
+  width: "1220"
 })], -1 /* HOISTED */);
 var _hoisted_51 = {
   "class": "search-trend"

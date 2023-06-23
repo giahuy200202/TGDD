@@ -91,7 +91,7 @@
 
             <div class="onl-disc">
                 <p>KHUYẾN MÃI CHỈ CÓ TRÊN ONLINE</p>
-                <img src="//cdn.tgdd.vn/2023/06/banner/1200x150-tgdd-1200x150-1.png" />
+                <img src="//cdn.tgdd.vn/2023/06/banner/1200x150-tgdd-1200x150-1.png" height="150" width="1220"/>
             </div>
 
             <div class="search-trend">
